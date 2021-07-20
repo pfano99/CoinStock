@@ -1,5 +1,5 @@
 from twelvedata import TDClient
-from  secrets_info import twelve_api
+from  CoinStock.secrets_info import twelve_api
 
 class StockData:
     def __init__(self, api_key=twelve_api):

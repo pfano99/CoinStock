@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock title %}
+
+
+{% block body %}
+
+    <form action="" method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.email.label }}
+        {{ form.email }}
+        {{ form.password.label }}
+        {{ form.password }}
+        {{ form.submit }}
+
+    </form>
+
+{% endblock body %}
+
+
+
+

@@ -1,2 +1,4 @@
 env
 __pycache__
+secrets_info.py
+site.db
